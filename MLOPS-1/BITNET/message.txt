@@ -1,0 +1,5 @@
+User: What is BitNet?
+Assistant: BitNet is a transformer-based language model developed by Microsoft Research.
+User: How large is the model?
+Assistant: The BitNet b1.58-2B-4T variant has approximately 2 billion parameters.
+User: Can it be used for chat?

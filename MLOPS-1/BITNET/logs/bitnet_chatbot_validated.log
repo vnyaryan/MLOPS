@@ -1,0 +1,124 @@
+2025-08-01 00:14:21,417 - DEBUG - Gradio-based BitNet chatbot with validation started.
+2025-08-01 00:14:21,424 - DEBUG - Using proactor: IocpProactor
+2025-08-01 00:14:21,430 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-08-01 00:14:21,725 - DEBUG - Using proactor: IocpProactor
+2025-08-01 00:14:21,777 - DEBUG - connect_tcp.started host='api.gradio.app' port=443 local_address=None timeout=3 socket_options=None
+2025-08-01 00:14:21,806 - DEBUG - https://huggingface.co:443 "HEAD /api/telemetry/gradio/initiated HTTP/1.1" 200 0
+2025-08-01 00:14:22,051 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015658F02120>
+2025-08-01 00:14:22,053 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000015658DAE210> server_hostname='api.gradio.app' timeout=3
+2025-08-01 00:14:22,067 - DEBUG - connect_tcp.started host='127.0.0.1' port=7861 local_address=None timeout=None socket_options=None
+2025-08-01 00:14:22,068 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015659237750>
+2025-08-01 00:14:22,068 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-08-01 00:14:22,069 - DEBUG - send_request_headers.complete
+2025-08-01 00:14:22,069 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-08-01 00:14:22,069 - DEBUG - send_request_body.complete
+2025-08-01 00:14:22,070 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-08-01 00:14:22,071 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Thu, 31 Jul 2025 18:44:21 GMT'), (b'server', b'uvicorn'), (b'content-length', b'4'), (b'content-type', b'application/json')])
+2025-08-01 00:14:22,072 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-01 00:14:22,072 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-08-01 00:14:22,072 - DEBUG - receive_response_body.complete
+2025-08-01 00:14:22,072 - DEBUG - response_closed.started
+2025-08-01 00:14:22,072 - DEBUG - response_closed.complete
+2025-08-01 00:14:22,072 - DEBUG - close.started
+2025-08-01 00:14:22,073 - DEBUG - close.complete
+2025-08-01 00:14:22,073 - DEBUG - connect_tcp.started host='127.0.0.1' port=7861 local_address=None timeout=3 socket_options=None
+2025-08-01 00:14:22,074 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015659075950>
+2025-08-01 00:14:22,075 - DEBUG - send_request_headers.started request=<Request [b'HEAD']>
+2025-08-01 00:14:22,075 - DEBUG - send_request_headers.complete
+2025-08-01 00:14:22,075 - DEBUG - send_request_body.started request=<Request [b'HEAD']>
+2025-08-01 00:14:22,075 - DEBUG - send_request_body.complete
+2025-08-01 00:14:22,075 - DEBUG - receive_response_headers.started request=<Request [b'HEAD']>
+2025-08-01 00:14:22,099 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Thu, 31 Jul 2025 18:44:21 GMT'), (b'server', b'uvicorn'), (b'content-length', b'18292'), (b'content-type', b'text/html; charset=utf-8')])
+2025-08-01 00:14:22,099 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-08-01 00:14:22,099 - DEBUG - receive_response_body.started request=<Request [b'HEAD']>
+2025-08-01 00:14:22,100 - DEBUG - receive_response_body.complete
+2025-08-01 00:14:22,100 - DEBUG - response_closed.started
+2025-08-01 00:14:22,100 - DEBUG - response_closed.complete
+2025-08-01 00:14:22,100 - DEBUG - close.started
+2025-08-01 00:14:22,100 - DEBUG - close.complete
+2025-08-01 00:14:22,104 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-08-01 00:14:22,384 - DEBUG - https://huggingface.co:443 "HEAD /api/telemetry/gradio/launched HTTP/1.1" 200 0
+2025-08-01 00:14:22,593 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015658DA7490>
+2025-08-01 00:14:22,594 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-08-01 00:14:22,594 - DEBUG - send_request_headers.complete
+2025-08-01 00:14:22,594 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-08-01 00:14:22,594 - DEBUG - send_request_body.complete
+2025-08-01 00:14:22,594 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-08-01 00:14:22,875 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 31 Jul 2025 18:44:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'21'), (b'Connection', b'keep-alive'), (b'Server', b'nginx/1.18.0'), (b'Access-Control-Allow-Origin', b'*')])
+2025-08-01 00:14:22,875 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-01 00:14:22,875 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-08-01 00:14:22,875 - DEBUG - receive_response_body.complete
+2025-08-01 00:14:22,875 - DEBUG - response_closed.started
+2025-08-01 00:14:22,875 - DEBUG - response_closed.complete
+2025-08-01 00:14:22,875 - DEBUG - close.started
+2025-08-01 00:14:22,876 - DEBUG - close.complete
+2025-08-01 00:14:46,233 - DEBUG - User input: Hi
+2025-08-01 00:14:46,450 - DEBUG - Validated and formatted prompt:
+<|begin_of_text|>
+User: Hi<|eot_id|>
+Assistant:
+2025-08-01 00:14:46,452 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9090
+2025-08-01 00:14:47,104 - DEBUG - http://127.0.0.1:9090 "POST /completion HTTP/1.1" 200 1318
+2025-08-01 00:15:06,730 - DEBUG - User input: How are you
+2025-08-01 00:15:06,939 - DEBUG - Validated and formatted prompt:
+<|begin_of_text|>
+User: Hi<|eot_id|>
+Assistant: Hello! How can I help you today?<|eot_id|>
+User: How are you<|eot_id|>
+Assistant:
+2025-08-01 00:15:06,942 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9090
+2025-08-01 00:15:09,220 - DEBUG - http://127.0.0.1:9090 "POST /completion HTTP/1.1" 200 1466
+2025-08-01 00:15:24,066 - DEBUG - User input: tell me about delhi
+2025-08-01 00:15:24,255 - DEBUG - Validated and formatted prompt:
+<|begin_of_text|>
+User: Hi<|eot_id|>
+Assistant: Hello! How can I help you today?<|eot_id|>
+User: How are you<|eot_id|>
+Assistant: I'm an AI, so I don't have feelings, but I'm here and ready to assist you! How can I help you today?<|eot_id|>
+User: tell me about delhi<|eot_id|>
+Assistant:
+2025-08-01 00:15:24,261 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9090
+2025-08-01 00:15:36,784 - DEBUG - http://127.0.0.1:9090 "POST /completion HTTP/1.1" 200 2389
+2025-08-01 00:18:46,134 - DEBUG - User input: Tell me about Delhi in 3 bullet points.
+
+2025-08-01 00:18:46,266 - DEBUG - Validated and formatted prompt:
+<|begin_of_text|>
+User: Hi<|eot_id|>
+Assistant: Hello! How can I help you today?<|eot_id|>
+User: How are you<|eot_id|>
+Assistant: I'm an AI, so I don't have feelings, but I'm here and ready to assist you! How can I help you today?<|eot_id|>
+User: tell me about delhi<|eot_id|>
+Assistant: Sure! Delhi is the capital of India, located in northern India. It is a bustling city known for its rich history, diverse culture, and vibrant atmosphere. Here are some key points about Delhi:
+
+1. **History and Culture**: Delhi has a long history that dates back to ancient times. It was once the capital of several great kingdoms, including the Mauryan, Gupta, and Mughal empires. Today, it is a city that blends a variety of architectural styles, from the ancient Qutub Minar to the modern skyscrapers.
+
+2. **Major Monuments**: Delhi is home to numerous significant historical sites, such as the Red Fort, which served as the residence of the Mughal emperors; the Qutub Minar, a UNESCO World Heritage Site; and the Humayun's Tomb, a mausoleum built by the second Mughal emperor, Humayun.
+
+3. **Cuisine**: Delhi's culinary scene is diverse<|eot_id|>
+User: Tell me about Delhi in 3 bullet points.<|eot_id|>
+Assistant:
+2025-08-01 00:18:46,268 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9090
+2025-08-01 00:18:55,502 - DEBUG - http://127.0.0.1:9090 "POST /completion HTTP/1.1" 200 2814
+2025-08-01 00:20:09,911 - DEBUG - User input: ok
+2025-08-01 00:20:10,029 - DEBUG - Validated and formatted prompt:
+<|begin_of_text|>
+User: Hi<|eot_id|>
+Assistant: Hello! How can I help you today?<|eot_id|>
+User: How are you<|eot_id|>
+Assistant: I'm an AI, so I don't have feelings, but I'm here and ready to assist you! How can I help you today?<|eot_id|>
+User: tell me about delhi<|eot_id|>
+Assistant: Sure! Delhi is the capital of India, located in northern India. It is a bustling city known for its rich history, diverse culture, and vibrant atmosphere. Here are some key points about Delhi:
+
+1. **History and Culture**: Delhi has a long history that dates back to ancient times. It was once the capital of several great kingdoms, including the Mauryan, Gupta, and Mughal empires. Today, it is a city that blends a variety of architectural styles, from the ancient Qutub Minar to the modern skyscrapers.
+
+2. **Major Monuments**: Delhi is home to numerous significant historical sites, such as the Red Fort, which served as the residence of the Mughal emperors; the Qutub Minar, a UNESCO World Heritage Site; and the Humayun's Tomb, a mausoleum built by the second Mughal emperor, Humayun.
+
+3. **Cuisine**: Delhi's culinary scene is diverse<|eot_id|>
+User: Tell me about Delhi in 3 bullet points.<|eot_id|>
+Assistant: - Delhi is the capital of India and boasts a rich history, with ancient sites like the Red Fort and Qutub Minar.
+- The city is known for its vibrant culture and a variety of cuisines, from street food to high-end restaurants.
+- Delhi is a melting pot of religions, with Hindu, Muslim, Sikh, and Christian communities coexisting harmoniously.<|eot_id|>
+User: ok<|eot_id|>
+Assistant:
+2025-08-01 00:20:10,031 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9090
+2025-08-01 00:20:17,642 - DEBUG - http://127.0.0.1:9090 "POST /completion HTTP/1.1" 200 2933
